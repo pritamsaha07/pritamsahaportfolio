@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import profilepic from "../assets/WhatsApp Image 2024-11-27 at 18.22.21_51a57000.jpg";
-import resumePdf from "../assets/Pritam_Resume.pdf";
+
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 6 months of hands-on experience, I have honed my skills in front-end technologies like React.js, Next.js, React Native and Typescript, as well as back-end technologies like Express.js, MySQL, and Firebase. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 const Hero = () => {
@@ -66,10 +66,8 @@ const Hero = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               transition={{ duration: 0.3 }}
-              href={resumePdf}
-              target="_blank"
-              rel="noopener noreferrer"
-              download
+              href="https://drive.google.com/file/d/1eWti9jAUbuigUOCy4bmn6Al7IALSw_XS/view?usp=drive_link"
+              
               className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10 shadow-md hover:shadow-lg transition-shadow"
             >
               Download Resume
