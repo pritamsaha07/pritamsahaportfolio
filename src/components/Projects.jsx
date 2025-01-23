@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import projectImage1 from '../assets/projects/project-1.webp';
 import projectImage2 from '../assets/projects/project-2.webp';
-
+import projectImage3 from "../assets/projects/project-3.webp";
 const Projects = () => {
   const projects = [
     {
@@ -32,6 +32,21 @@ const Projects = () => {
         'Real-time data synchronization',
         'AI-powered data processing',
         'Secure Firebase storage'
+      ]
+    },
+    {
+      title: 'Automated Invoice Companion',
+      technologies: ['Zapier', 'Express.Js','React.js'],
+      description: 'A streamlined solution for managing invoices with Google OAuth integration, allowing users to upload, transform, and view Excel files as JSON data, while automating reminders and leveraging Zapier for enhanced workflow efficiency.',
+      githubLink: 'https://github.com/pritamsaha07/email_auto_reminder_',
+      
+      image: projectImage3,
+      keyFeatures: [
+        'Google Login',
+        'Auto Email Reminders using Zapier',
+        'Excel to JSON',
+        'Intuitive Dashboard',
+        
       ]
     }
   ];

@@ -8,7 +8,8 @@ import {
   SiExpress,
   SiMysql,
   SiFirebase,
-  SiTypescript
+  SiTypescript,
+  SiTailwindcss
 } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 
@@ -20,7 +21,8 @@ const Technologies = () => {
     { icon: SiTypescript, color: 'text-blue-600', name: 'TypeScript' },
     { icon: SiExpress, color: 'text-gray-500', name: 'Express.js' },
     { icon: SiMysql, color: 'text-blue-700', name: 'MySQL' },
-    { icon: SiFirebase, color: 'text-yellow-500', name: 'Firebase' }
+    { icon: SiFirebase, color: 'text-yellow-500', name: 'Firebase' },
+    { icon: SiTailwindcss,  color: 'text-teal-400', name: 'Tailwind CSS' }
   ];
 
   const containerVariants = {

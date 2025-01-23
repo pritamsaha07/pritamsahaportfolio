@@ -16,7 +16,18 @@ const Experience = () => {
         'Integrated REST APIs using Express.js and PostgreSQL with optimized data fetching'
       ]
     },
-    
+    {
+      company: ' FylmyVisa & Scout',
+      role: 'Freelance Full-Stack Developer',
+      duration: 'November 2024 -',
+      description: 'Developed responsive UI components for FylmyVisa and Scout using Next.js and integrated Razorpay for secure payments. Built a user-friendly dashboard for visa applications and admin tracking.',
+      achievements: [
+        'Developed multiple UI components for both companies websites using Next.js, ensuring responsive and optimized designs.',
+        'Integrated Razorpay for seamless and secure payment processing.',
+        'Built a comprehensive dashboard for visa applications, allowing users to apply effortlessly and enabling admins to track applications efficiently.',
+        
+      ]
+    },
   ];
 
   return (

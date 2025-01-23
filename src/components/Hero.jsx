@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import profilepic from "../assets/WhatsApp Image 2024-11-27 at 18.22.21_51a57000.jpg";
+import profilepic from "../assets/WhatsApp Image 2025-01-24 at 01.05.18_b279a798.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 6 months of hands-on experience, I have honed my skills in front-end technologies like React.js, Next.js, React Native and Typescript, as well as back-end technologies like Express.js, MySQL, and Firebase. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React.js, Next.js, React Native and Typescript, as well as back-end technologies like Express.js, MySQL, and Firebase. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 const Hero = () => {
   return (
